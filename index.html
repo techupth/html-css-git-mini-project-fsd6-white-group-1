@@ -4,9 +4,299 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "rubik";
+        box-sizing: border-box;
+      }
+    </style>
+    <title>html-css-mini-project-FSD6-White-Group-1</title>
   </head>
   <body>
-    <!-- Start Coding here -->
+    <section id="section-1"></section>
+    <section id="section-2" class="service-section flex justify-center">
+      <div
+        class="service-content gap-10 container-md rounded-lg p-10 my-5 flex flex-col"
+      >
+        <div class="relative">
+          <h2
+            class="info-service text-5xl text-[#0B0757] font-medium max-w-[400px]"
+          >
+            Let's Check Our Services
+          </h2>
+          <div
+            class="absolute bottom-[7px] left-[220px] w-[68px] max-[460px]:hidden duration-200 max-[640px]:duration-200 max-[640px]:w-[36px] h-[6px] rounded-md bg-blue-500"
+          ></div>
+        </div>
+        <div
+          class="main-service-box mt-10 flex gap-5 justify-around flex-wrap max-[640px]:w-[290px]"
+        >
+          <div
+            class="service-box-1 h-72 w-72 relative rounded-xl duration-200 hover:duration-200 hover:bg-slate-100 hover:shadow-md hover:shadow-white"
+          >
+            <div class="icon overflow-hidden">
+              <svg
+                class="absolute top-[44px] left-[40px]"
+                width="20"
+                height="19"
+                viewBox="0 0 20 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 0.412354V16.3916H18V18.389H0V0.412354H2ZM16.94 3.34854L19.06 5.46579L13 11.5199L10 8.52382L6.06 12.4587L3.94 10.3395L10 4.28732L13 7.28343L16.94 3.34854Z"
+                  fill="#59CD30"
+                />
+              </svg>
+              <svg
+                class="absolute top-[20px] left-[20px]"
+                width="63"
+                height="66"
+                viewBox="0 0 63 66"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M61.5054 24.5286C66.1712 41.9414 55.8377 59.8396 38.4248 64.5054C23.2369 68.575 7.6797 61.2334 0.856021 47.7362C-0.987885 44.0889 0.697417 39.8904 3.6065 37.0199C20.8424 20.0126 5.48371 5.74727 21.5287 1.44803C38.9415 -3.21771 56.8397 7.11582 61.5054 24.5286Z"
+                  fill="#59CD30"
+                  fill-opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col h-full justify-end gap-5 pl-6 pr-8 pb-12">
+              <h4 class="top-content-service font-bold text-[#0B0757] text-xl">
+                Incease Conversion
+              </h4>
+              <article
+                class="content-service font-medium text-[#8480AE] opacity-60"
+              >
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </article>
+            </div>
+          </div>
+          <div
+            class="service-box-2 h-72 w-72 relative rounded-xl duration-200 hover:duration-200 hover:bg-slate-100 hover:shadow-md hover:shadow-white"
+          >
+            <div class="icon overflow-hidden">
+              <svg
+                class="absolute top-[44px] left-[40px]"
+                width="22"
+                height="21"
+                viewBox="0 0 22 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.8 17L13 20.5L10.2 17H5C4.73478 17 4.48043 16.8946 4.29289 16.7071C4.10536 16.5196 4 16.2652 4 16V5.103C4 4.83778 4.10536 4.58343 4.29289 4.39589C4.48043 4.20836 4.73478 4.103 5 4.103H21C21.2652 4.103 21.5196 4.20836 21.7071 4.39589C21.8946 4.58343 22 4.83778 22 5.103V16C22 16.2652 21.8946 16.5196 21.7071 16.7071C21.5196 16.8946 21.2652 17 21 17H15.8ZM1 0H18V2H2V13H0V1C0 0.734784 0.105357 0.48043 0.292893 0.292893C0.48043 0.105357 0.734784 0 1 0Z"
+                  fill="#D86EFD"
+                />
+              </svg>
+              <svg
+                class="absolute top-[20px] left-[20px]"
+                width="63"
+                height="66"
+                viewBox="0 0 63 66"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M61.5054 24.5286C66.1712 41.9414 55.8377 59.8396 38.4248 64.5054C23.2369 68.575 7.6797 61.2334 0.856021 47.7362C-0.987885 44.0889 0.697417 39.8904 3.6065 37.0199C20.8424 20.0126 5.48371 5.74727 21.5287 1.44803C38.9415 -3.21771 56.8397 7.11582 61.5054 24.5286Z"
+                  fill="#D86EFD"
+                  fill-opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col h-full justify-end gap-5 pl-6 pr-8 pb-12">
+              <h4 class="top-content-service font-bold text-[#0B0757] text-xl">
+                Discussion for idea
+              </h4>
+              <article
+                class="content-service font-medium text-[#8480AE] opacity-60"
+              >
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </article>
+            </div>
+          </div>
+          <div
+            class="service-box-3 h-72 w-72 relative rounded-xl duration-200 hover:duration-200 hover:bg-slate-100 hover:shadow-md hover:shadow-white"
+          >
+            <div class="icon overflow-hidden">
+              <svg
+                class="absolute top-[40px] left-[38px]"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_693)">
+                  <path
+                    d="M11 2.04997V13H21.95C21.449 18.053 17.185 22 12 22C6.477 22 2 17.523 2 12C2 6.81497 5.947 2.55097 11 2.04997ZM13 0.542969C18.553 1.01997 22.979 5.44697 23.457 11H13V0.542969Z"
+                    fill="#6E96FD"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_693">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <svg
+                class="absolute top-[20px] left-[20px]"
+                width="63"
+                height="66"
+                viewBox="0 0 63 66"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M61.5054 24.5286C66.1712 41.9414 55.8377 59.8396 38.4248 64.5054C23.2369 68.575 7.6797 61.2334 0.856021 47.7362C-0.987885 44.0889 0.697417 39.8904 3.6065 37.0199C20.8424 20.0126 5.48371 5.74727 21.5287 1.44803C38.9415 -3.21771 56.8397 7.11582 61.5054 24.5286Z"
+                  fill="#6E96FD"
+                  fill-opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col h-full justify-end gap-5 pl-6 pr-8 pb-12">
+              <h4 class="top-content-service font-bold text-[#0B0757] text-xl">
+                Product analytics
+              </h4>
+              <article
+                class="content-service font-medium text-[#8480AE] opacity-60"
+              >
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </article>
+            </div>
+          </div>
+          <div
+            class="service-box-4 h-72 w-72 relative rounded-xl duration-200 hover:duration-200 hover:bg-slate-100 hover:shadow-md hover:shadow-white"
+          >
+            <div class="icon overflow-hidden">
+              <svg
+                class="absolute top-[40px] left-[38px]"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_1_698)">
+                  <path
+                    d="M16 2V4H15V7.243C15 8.401 15.251 9.544 15.736 10.595L20.018 19.871C20.365 20.624 20.036 21.515 19.284 21.861C19.087 21.953 18.873 22 18.656 22H5.344C4.516 22 3.844 21.328 3.844 20.5C3.844 20.283 3.891 20.068 3.982 19.871L8.264 10.595C8.749 9.545 9 8.401 9 7.243V4H8V2H16ZM13 4H11V8H13V4Z"
+                    fill="#F6B613"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_1_698">
+                    <rect width="24" height="24" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <svg
+                class="absolute top-[20px] left-[20px]"
+                width="63"
+                height="66"
+                viewBox="0 0 63 66"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M61.5054 24.5286C66.1712 41.9414 55.8377 59.8396 38.4248 64.5054C23.2369 68.575 7.6797 61.2334 0.856021 47.7362C-0.987885 44.0889 0.697417 39.8904 3.6065 37.0199C20.8424 20.0126 5.48371 5.74727 21.5287 1.44803C38.9415 -3.21771 56.8397 7.11582 61.5054 24.5286Z"
+                  fill="#F6B613"
+                  fill-opacity="0.3"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col h-full justify-end gap-5 pl-6 pr-8 pb-12">
+              <h4 class="top-content-service font-bold text-[#0B0757] text-xl">
+                Perfect testing
+              </h4>
+              <article
+                class="content-service font-medium text-[#8480AE] opacity-60"
+              >
+                It's crafted with the latest of design & coded with all trendy &
+                modern approaches.
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="absolute right-0 top-[300px] max-[640px]:hidden"
+        width="98"
+        height="52"
+        viewBox="0 0 98 52"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 18C4 19.1046 3.10457 20 2 20C0.89543 20 0 19.1046 0 18C0 16.8954 0.89543 16 2 16C3.10457 16 4 16.8954 4 18ZM20 18C20 19.1046 19.1046 20 18 20C16.8954 20 16 19.1046 16 18C16 16.8954 16.8954 16 18 16C19.1046 16 20 16.8954 20 18ZM34 20C35.1046 20 36 19.1046 36 18C36 16.8954 35.1046 16 34 16C32.8954 16 32 16.8954 32 18C32 19.1046 32.8954 20 34 20ZM52 18C52 19.1046 51.1046 20 50 20C48.8954 20 48 19.1046 48 18C48 16.8954 48.8954 16 50 16C51.1046 16 52 16.8954 52 18ZM66 20C67.1046 20 68 19.1046 68 18C68 16.8954 67.1046 16 66 16C64.8954 16 64 16.8954 64 18C64 19.1046 64.8954 20 66 20ZM84 18C84 19.1046 83.1046 20 82 20C80.8954 20 80 19.1046 80 18C80 16.8954 80.8954 16 82 16C83.1046 16 84 16.8954 84 18Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 2C4 3.10457 3.10457 4 2 4C0.89543 4 0 3.10457 0 2C0 0.89543 0.89543 0 2 0C3.10457 0 4 0.89543 4 2ZM20 2C20 3.10457 19.1046 4 18 4C16.8954 4 16 3.10457 16 2C16 0.89543 16.8954 0 18 0C19.1046 0 20 0.89543 20 2ZM34 4C35.1046 4 36 3.10457 36 2C36 0.89543 35.1046 0 34 0C32.8954 0 32 0.89543 32 2C32 3.10457 32.8954 4 34 4ZM52 2C52 3.10457 51.1046 4 50 4C48.8954 4 48 3.10457 48 2C48 0.89543 48.8954 0 50 0C51.1046 0 52 0.89543 52 2ZM66 4C67.1046 4 68 3.10457 68 2C68 0.89543 67.1046 0 66 0C64.8954 0 64 0.89543 64 2C64 3.10457 64.8954 4 66 4ZM84 2C84 3.10457 83.1046 4 82 4C80.8954 4 80 3.10457 80 2C80 0.89543 80.8954 0 82 0C83.1046 0 84 0.89543 84 2Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M10 36C11.1046 36 12 35.1046 12 34C12 32.8954 11.1046 32 10 32C8.89543 32 8 32.8954 8 34C8 35.1046 8.89543 36 10 36ZM12 50C12 51.1046 11.1046 52 10 52C8.89543 52 8 51.1046 8 50C8 48.8954 8.89543 48 10 48C11.1046 48 12 48.8954 12 50ZM28 50C28 51.1046 27.1046 52 26 52C24.8954 52 24 51.1046 24 50C24 48.8954 24.8954 48 26 48C27.1046 48 28 48.8954 28 50ZM42 52C43.1046 52 44 51.1046 44 50C44 48.8954 43.1046 48 42 48C40.8954 48 40 48.8954 40 50C40 51.1046 40.8954 52 42 52ZM60 50C60 51.1046 59.1046 52 58 52C56.8954 52 56 51.1046 56 50C56 48.8954 56.8954 48 58 48C59.1046 48 60 48.8954 60 50ZM74 52C75.1046 52 76 51.1046 76 50C76 48.8954 75.1046 48 74 48C72.8954 48 72 48.8954 72 50C72 51.1046 72.8954 52 74 52ZM92 50C92 51.1046 91.1046 52 90 52C88.8954 52 88 51.1046 88 50C88 48.8954 88.8954 48 90 48C91.1046 48 92 48.8954 92 50ZM28 34C28 35.1046 27.1046 36 26 36C24.8954 36 24 35.1046 24 34C24 32.8954 24.8954 32 26 32C27.1046 32 28 32.8954 28 34ZM42 36C43.1046 36 44 35.1046 44 34C44 32.8954 43.1046 32 42 32C40.8954 32 40 32.8954 40 34C40 35.1046 40.8954 36 42 36ZM60 34C60 35.1046 59.1046 36 58 36C56.8954 36 56 35.1046 56 34C56 32.8954 56.8954 32 58 32C59.1046 32 60 32.8954 60 34ZM74 36C75.1046 36 76 35.1046 76 34C76 32.8954 75.1046 32 74 32C72.8954 32 72 32.8954 72 34C72 35.1046 72.8954 36 74 36ZM92 34C92 35.1046 91.1046 36 90 36C88.8954 36 88 35.1046 88 34C88 32.8954 88.8954 32 90 32C91.1046 32 92 32.8954 92 34Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+      </svg>
+      <svg
+        class="absolute right-[-40px] top-[370px] max-[640px]:hidden"
+        width="98"
+        height="52"
+        viewBox="0 0 98 52"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 18C4 19.1046 3.10457 20 2 20C0.89543 20 0 19.1046 0 18C0 16.8954 0.89543 16 2 16C3.10457 16 4 16.8954 4 18ZM20 18C20 19.1046 19.1046 20 18 20C16.8954 20 16 19.1046 16 18C16 16.8954 16.8954 16 18 16C19.1046 16 20 16.8954 20 18ZM34 20C35.1046 20 36 19.1046 36 18C36 16.8954 35.1046 16 34 16C32.8954 16 32 16.8954 32 18C32 19.1046 32.8954 20 34 20ZM52 18C52 19.1046 51.1046 20 50 20C48.8954 20 48 19.1046 48 18C48 16.8954 48.8954 16 50 16C51.1046 16 52 16.8954 52 18ZM66 20C67.1046 20 68 19.1046 68 18C68 16.8954 67.1046 16 66 16C64.8954 16 64 16.8954 64 18C64 19.1046 64.8954 20 66 20ZM84 18C84 19.1046 83.1046 20 82 20C80.8954 20 80 19.1046 80 18C80 16.8954 80.8954 16 82 16C83.1046 16 84 16.8954 84 18Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M4 2C4 3.10457 3.10457 4 2 4C0.89543 4 0 3.10457 0 2C0 0.89543 0.89543 0 2 0C3.10457 0 4 0.89543 4 2ZM20 2C20 3.10457 19.1046 4 18 4C16.8954 4 16 3.10457 16 2C16 0.89543 16.8954 0 18 0C19.1046 0 20 0.89543 20 2ZM34 4C35.1046 4 36 3.10457 36 2C36 0.89543 35.1046 0 34 0C32.8954 0 32 0.89543 32 2C32 3.10457 32.8954 4 34 4ZM52 2C52 3.10457 51.1046 4 50 4C48.8954 4 48 3.10457 48 2C48 0.89543 48.8954 0 50 0C51.1046 0 52 0.89543 52 2ZM66 4C67.1046 4 68 3.10457 68 2C68 0.89543 67.1046 0 66 0C64.8954 0 64 0.89543 64 2C64 3.10457 64.8954 4 66 4ZM84 2C84 3.10457 83.1046 4 82 4C80.8954 4 80 3.10457 80 2C80 0.89543 80.8954 0 82 0C83.1046 0 84 0.89543 84 2Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M10 36C11.1046 36 12 35.1046 12 34C12 32.8954 11.1046 32 10 32C8.89543 32 8 32.8954 8 34C8 35.1046 8.89543 36 10 36ZM12 50C12 51.1046 11.1046 52 10 52C8.89543 52 8 51.1046 8 50C8 48.8954 8.89543 48 10 48C11.1046 48 12 48.8954 12 50ZM28 50C28 51.1046 27.1046 52 26 52C24.8954 52 24 51.1046 24 50C24 48.8954 24.8954 48 26 48C27.1046 48 28 48.8954 28 50ZM42 52C43.1046 52 44 51.1046 44 50C44 48.8954 43.1046 48 42 48C40.8954 48 40 48.8954 40 50C40 51.1046 40.8954 52 42 52ZM60 50C60 51.1046 59.1046 52 58 52C56.8954 52 56 51.1046 56 50C56 48.8954 56.8954 48 58 48C59.1046 48 60 48.8954 60 50ZM74 52C75.1046 52 76 51.1046 76 50C76 48.8954 75.1046 48 74 48C72.8954 48 72 48.8954 72 50C72 51.1046 72.8954 52 74 52ZM92 50C92 51.1046 91.1046 52 90 52C88.8954 52 88 51.1046 88 50C88 48.8954 88.8954 48 90 48C91.1046 48 92 48.8954 92 50ZM28 34C28 35.1046 27.1046 36 26 36C24.8954 36 24 35.1046 24 34C24 32.8954 24.8954 32 26 32C27.1046 32 28 32.8954 28 34ZM42 36C43.1046 36 44 35.1046 44 34C44 32.8954 43.1046 32 42 32C40.8954 32 40 32.8954 40 34C40 35.1046 40.8954 36 42 36ZM60 34C60 35.1046 59.1046 36 58 36C56.8954 36 56 35.1046 56 34C56 32.8954 56.8954 32 58 32C59.1046 32 60 32.8954 60 34ZM74 36C75.1046 36 76 35.1046 76 34C76 32.8954 75.1046 32 74 32C72.8954 32 72 32.8954 72 34C72 35.1046 72.8954 36 74 36ZM92 34C92 35.1046 91.1046 36 90 36C88.8954 36 88 35.1046 88 34C88 32.8954 88.8954 32 90 32C91.1046 32 92 32.8954 92 34Z"
+          fill="#1374F6"
+          fill-opacity="0.2"
+        />
+      </svg>
+    </section>
+    <section id="section-3"></section>
+    <section id="section-4"></section>
+    <section id="section-5"></section>
+    <section id="section-6"></section>
+    <section id="section-7"></section>
   </body>
 </html>
