@@ -6,6 +6,7 @@ module.exports = {
         second: "#1374f6",
         third: "#fdc46e",
         forth: "#0b0757",
+        fifth: "#caad5d",
         p: "#8480ae",
         bg: "#f4f7fc",
       },
